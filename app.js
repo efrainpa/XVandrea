@@ -117,3 +117,9 @@ function play() {
     var boton = document.getElementById('btn-play');
     boton.disabled = true;
 }
+
+function play2() {
+    var audio = new Audio('musica/evangeline.m4a');
+    audio.pause();
+
+}
